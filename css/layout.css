@@ -1,0 +1,114 @@
+
+  #a{
+    width: 480px;
+    height: 75px;
+    background-color: violet;
+  }
+  #b{
+    width: 480px;
+    height: 150px;
+    border-top-style: none;
+    background-color: indigo
+  }
+  #c{
+    width: 480px;
+    height: 125px;
+    border-top-style: none;
+    background-color: blue;
+  }
+  #d{
+    width: 480px;
+    height: 125px;
+    border-bottom-style: none;
+    border-top-style: none;
+    background-color: green;
+  }
+  #e{
+    width: 239px;
+    height: 250px;
+    border-bottom-style: none;
+    background-color: yellow;
+  }
+  #f{
+    width: 238px;
+    height: 250px;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-color: yellow;
+  }
+  #g{
+    width: 239px;
+    height: 250px;
+    border-bottom-style: none;
+    background-color: orange;
+  }
+  #h{
+    width: 238px;
+    height: 250px;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-color: orange;
+
+  }
+  #i{
+    width: 478px;
+    height: 80px;
+    background-color: red;
+  }
+  
+  @media only screen and (min-width: 960px) {
+    #a{
+      width: 958px;
+      height: 100px;
+ 
+    }
+    #b{
+      width: 200px;
+      height: 600px;
+    }
+    #c{
+      width: 378px;
+      height: 200px;
+      border-left-style: none;
+      border-bottom-style: none;
+    }
+    #d{
+      width: 378px;
+      height: 200px;
+      border-left-style: none;
+      border-bottom-style: none;
+    
+    }
+    #e{
+      width: 189px;
+      height: 250px;
+      border-left-style: none;
+      border-bottom-style: none;
+    }
+    #f{
+      width: 188px;
+      height: 250px;
+      border-left-style: none;
+      border-bottom-style: none;
+    }
+    #g{
+      width: 189px;
+      height: 250px;
+      border-left-style: none;
+      border-bottom-style: none;
+    }
+    #h{
+      width: 188px;
+      height: 250px;
+      border-left-style: none;
+      border-bottom-style: none;
+    }
+    #i{
+      width: 757px;
+      height: 148px;
+      border-left-style: none;
+    }
+  }
+  
+  
+  
