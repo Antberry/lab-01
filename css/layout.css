@@ -60,53 +60,60 @@
     #a{
       width: 958px;
       height: 100px;
- 
+      background-color: blue;
     }
     #b{
       width: 200px;
       height: 600px;
+      background-color: aqua;
     }
     #c{
       width: 378px;
       height: 200px;
       border-left-style: none;
       border-bottom-style: none;
+      background-color: chartreuse;
     }
     #d{
       width: 378px;
       height: 200px;
       border-left-style: none;
       border-bottom-style: none;
-    
+      background-color: darksalmon;
     }
     #e{
       width: 189px;
       height: 250px;
       border-left-style: none;
       border-bottom-style: none;
+      background-color: burlywood;
     }
     #f{
       width: 188px;
       height: 250px;
       border-left-style: none;
       border-bottom-style: none;
+      background-color: slateblue;
     }
     #g{
       width: 189px;
       height: 250px;
       border-left-style: none;
       border-bottom-style: none;
+      background-color: deepskyblue;
     }
     #h{
       width: 188px;
       height: 250px;
       border-left-style: none;
       border-bottom-style: none;
+      background-color: yellow;
     }
     #i{
       width: 757px;
       height: 148px;
       border-left-style: none;
+      background-color: slategray;
     }
   }
   
