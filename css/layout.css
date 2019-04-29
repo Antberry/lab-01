@@ -1,22 +1,26 @@
 
   #a{
+    grid-area: header;
     width: 480px;
     height: 75px;
     background-color: violet;
   }
   #b{
+    grid-area: menu;
     width: 480px;
     height: 150px;
     border-top-style: none;
     background-color: indigo
   }
   #c{
+    grid-area: main;
     width: 480px;
     height: 125px;
     border-top-style: none;
     background-color: blue;
   }
   #d{
+    grid-area: right;
     width: 480px;
     height: 125px;
     border-bottom-style: none;
@@ -24,12 +28,14 @@
     background-color: green;
   }
   #e{
+    grid-area: article1;
     width: 239px;
     height: 250px;
     border-bottom-style: none;
     background-color: yellow;
   }
   #f{
+    grid-area:  article2;
     width: 238px;
     height: 250px;
     border-bottom-style: none;
@@ -37,12 +43,14 @@
     background-color: yellow;
   }
   #g{
+    grid-area: article3;
     width: 239px;
     height: 250px;
     border-bottom-style: none;
     background-color: orange;
   }
   #h{
+    grid-area: article4;
     width: 238px;
     height: 250px;
     border-bottom-style: none;
@@ -51,23 +59,50 @@
 
   }
   #i{
+    grid-area: footer;
     width: 478px;
     height: 80px;
     background-color: red;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'menu menu'
+    'main main' 
+    'right right'
+    'article1 article2' 
+    'article3 article4'
+    'footer footer';
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 0px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding:0px;
+    font-size: 30px;
+    text-align: center;
+  }
   
   @media only screen and (min-width: 960px) {
     #a{
+      grid-area: header;
       width: 958px;
       height: 100px;
       background-color: blue;
     }
     #b{
+      grid-area: menu;
       width: 200px;
       height: 600px;
       background-color: aqua;
     }
     #c{
+      grid-area: main;
       width: 378px;
       height: 200px;
       border-left-style: none;
@@ -75,6 +110,7 @@
       background-color: chartreuse;
     }
     #d{
+      grid-area: right;
       width: 378px;
       height: 200px;
       border-left-style: none;
@@ -82,6 +118,7 @@
       background-color: darksalmon;
     }
     #e{
+      grid-area: article1;
       width: 189px;
       height: 250px;
       border-left-style: none;
@@ -89,6 +126,7 @@
       background-color: burlywood;
     }
     #f{
+      grid-area: article2;
       width: 188px;
       height: 250px;
       border-left-style: none;
@@ -96,6 +134,7 @@
       background-color: slateblue;
     }
     #g{
+      grid-area: article3;
       width: 189px;
       height: 250px;
       border-left-style: none;
@@ -103,6 +142,7 @@
       background-color: deepskyblue;
     }
     #h{
+      grid-area: article4;
       width: 188px;
       height: 250px;
       border-left-style: none;
@@ -110,10 +150,30 @@
       background-color: yellow;
     }
     #i{
+      grid-area: footer;
       width: 757px;
       height: 148px;
       border-left-style: none;
       background-color: slategray;
+    }
+  
+     .grid-container {
+      display: grid;
+      grid-template-areas:
+      'header header header header header'
+      'menu main main right right'
+      'menu article1 article2 article3 article4'
+      'menu footer footer footer footer';
+      grid-template-columns: auto auto auto;
+      background-color: #2196F3;
+      padding: 0px;
+    }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding:0px;
+      font-size: 30px;
+      text-align: center;
     }
   }
   
